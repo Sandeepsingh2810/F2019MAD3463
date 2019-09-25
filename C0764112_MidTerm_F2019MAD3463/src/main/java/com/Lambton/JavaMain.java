@@ -9,7 +9,7 @@ public class JavaMain
         System.out.println(obji.reverse(a));
 
 
-        String Name = "Lambton College Toronto";
+        String Name = "James tiBeriUs kiRK";
         LambtonStringTools obj1= new LambtonStringTools();
         System.out.println(obj1.initials(Name));
 
