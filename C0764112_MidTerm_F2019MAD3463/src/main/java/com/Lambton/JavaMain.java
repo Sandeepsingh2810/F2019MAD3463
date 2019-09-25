@@ -13,5 +13,9 @@ public class JavaMain
         LambtonStringTools obj1= new LambtonStringTools();
         System.out.println(obj1.initials(Name));
 
+
+        System.out.println(obji.replaceSubString("my name is sandeep","His","my"));
+
+
     }
 }
