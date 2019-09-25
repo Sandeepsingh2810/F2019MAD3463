@@ -10,9 +10,8 @@ public class JavaMain
 
 
         String Name = "Lambton College Toronto";
-        System.out.println(obji.initial(Name));
-
-
+        LambtonStringTools obj1= new LambtonStringTools();
+        System.out.println(obj1.initials(Name));
 
     }
 }
