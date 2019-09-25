@@ -8,5 +8,11 @@ public class JavaMain
         LambtonStringTools obji= new LambtonStringTools();
         System.out.println(obji.reverse(a));
 
+
+        String Name = "Lambton College Toronto";
+        System.out.println(obji.initial(Name));
+
+
+
     }
 }
