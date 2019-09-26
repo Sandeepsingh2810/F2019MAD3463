@@ -12,7 +12,6 @@ public class JavaMain
         String Name = "jean luc picard";
 
         LambtonStringTools obj1= new LambtonStringTools();
-
         System.out.println(obj1.initials(Name));
 
 
