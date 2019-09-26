@@ -49,8 +49,7 @@ public class LambtonStringTools {
                     {
                     for (int k = 0; k < 1; k++)
 
-                    {
-                        ini = PartsofName[2].charAt(k);
+                    { ini = PartsofName[2].charAt(k);
                         initial += ini;
                         initial = initial.toUpperCase();
                     }
