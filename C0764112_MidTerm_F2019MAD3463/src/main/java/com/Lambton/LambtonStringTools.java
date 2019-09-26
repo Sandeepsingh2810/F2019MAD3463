@@ -20,7 +20,10 @@ public class LambtonStringTools {
 
 
 
-    public static String initials(String s) {
+    public static String initials(String s)
+    {
+
+
 
         String initial = "";
         String[] PartsofName = s.split(" ");
