@@ -39,16 +39,23 @@ public class LambtonStringTools {
                     ini = PartsofName[j].charAt(0);
                     initial = initial + ini + ".";
                     initial = initial.toUpperCase();
-                } else {
+                } else
+                    {
                     for (int k = 0; k < 1; k++)
+
                     {
                         ini = PartsofName[2].charAt(k);
                         initial += ini;
                         initial = initial.toUpperCase();
                     }
+
+
                     for (int l = 1; l< PartsofName[2].length(); l++) {
+
                         ini = PartsofName[2].charAt(l);
+
                         initial = initial + Character.toLowerCase(ini);
+
                         initial = initial;
                     }
                 }
@@ -73,8 +80,9 @@ public class LambtonStringTools {
             return s3;
         }
 
-        
+
         String prevst = s3.substring(0, j);
+
         String afst  = s3.substring(j + s1.length());
 
         return prevst + s2 + afst;
