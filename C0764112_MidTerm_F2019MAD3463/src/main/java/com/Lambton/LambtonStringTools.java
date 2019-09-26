@@ -85,7 +85,7 @@ public class LambtonStringTools {
 
             return s3;
         }
-        
+
         String prevst = s3.substring(0, j);
         String afst  = s3.substring(j + s1.length());
 
