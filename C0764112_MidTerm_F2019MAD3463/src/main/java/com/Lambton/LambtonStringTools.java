@@ -34,8 +34,11 @@ public class LambtonStringTools {
 
             {
 
-                for (int j = 0; j < PartsofName.length; j++) {
-                if (j!= 2) {
+                for (int j = 0; j < PartsofName.length; j++)
+
+                {
+                if (j!= 2)
+                {
                     ini = PartsofName[j].charAt(0);
                     initial = initial + ini + ".";
                     initial = initial.toUpperCase();
@@ -63,7 +66,7 @@ public class LambtonStringTools {
             return (initial);
         }
     }
-}
+
 
 
     public static String replaceSubString(String s1,String s2, String s3)
