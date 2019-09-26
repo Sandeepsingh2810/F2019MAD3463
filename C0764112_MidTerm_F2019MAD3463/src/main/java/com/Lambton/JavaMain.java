@@ -21,9 +21,6 @@ public class JavaMain
 
 
         System.out.println(obji.replaceSubString("my name is sandeep","His","my"));
-
-
-
     }
 
 }
